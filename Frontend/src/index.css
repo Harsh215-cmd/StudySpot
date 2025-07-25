@@ -1,0 +1,1196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* NavBar Css Start */
+nav {
+  width: 99vw;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(15, 6, 56);
+  padding: 10px 50px;
+  font-size: 20px;
+}
+
+.collageLogo {
+  display: flex;
+  gap: 2px;
+}
+
+.collageLogo img {
+  width: 30px;
+  border-radius: 15px;
+}
+
+.collageLogo a {
+  margin-top: 5px;
+}
+
+nav div a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+/* NavBar Css End */
+
+/* HomePage Css Start */
+.home-back-section {
+  width: 99vw;
+  max-height: 70vh;
+  background-image: url("../images/homeBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.home-section {
+  width: 99vw;
+  max-height: 70vh;
+  background-color: rgba(15, 6, 56, 0.855);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.greet {
+  width: 55%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.greet .count {
+  display: flex;
+  gap: 20px;
+}
+
+.greet .count .student-count {
+  /* border: 1px solid black; */
+  display: grid;
+  text-align: center;
+  width: 200px;
+  justify-content: center;
+  background-image: url("../images/images-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.greet .count .material-count {
+  /* border: 1px solid black; */
+  display: grid;
+  text-align: center;
+  width: 200px;
+  background-image: url("../images/MaterialCount-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.greet .count samp {
+  font-size: 35px;
+}
+
+.greet .home-lines {
+  display: grid;
+  gap: 20px;
+  color: white;
+}
+
+.greet div h1 {
+  font-size: 60px;
+}
+
+.greet div samp {
+  font-size: 20px;
+}
+
+.home-image img {
+  width: 550px;
+  /* border: 1px solid black; */
+}
+
+/* Homepage Css End */
+
+/* Branch Csss Start */
+.branch-section-back {
+  background-color: whitesmoke;
+  padding: 2px;
+}
+
+.branch-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  background-color: white;
+  margin: 10px 30px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.branch-section div figure img {
+  width: 348px;
+  height: 280px;
+  border-radius: 15px 0px 0px 0px;
+
+}
+
+.branch-section div {
+  width: 350px;
+  height: 350px;
+  border: 1px solid grey;
+  border-radius: 15px 0px 15px 0px;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.71);
+}
+
+.branch-section div a {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid black;
+  align-items: center;
+  width: 95%;
+  height: 30px;
+  margin: 6px;
+}
+
+/* Branch Section End */
+
+/* Feedbck Form */
+.feedback-section-back {
+  width: 99vw;
+  background-image: url("../images/homeBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+}
+
+.feedback-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+  background-color: rgba(15, 6, 56, 0.81);
+}
+
+.feedback-section img {
+  width: 330px;
+  height: 350px;
+  border: 1px solid black;
+  border-left: none !important;
+  border-radius: 0px 15px 15px 0px;
+
+}
+
+.feedback-section .feedback-form {
+  background-color: white;
+  border: 1px solid black;
+  border-right: none !important;
+  border-radius: 15px 0px 0px 15px;
+  width: 650px;
+  height: 350px;
+  padding: 15px;
+  justify-content: center;
+}
+
+.feedback-section .feedback-form button {
+  height: 30px;
+  width: 50%;
+  align-items: center;
+}
+
+.feedback-form input {
+  width: 100%;
+  height: 28px;
+}
+
+.feedback-form .selection {
+  display: flex;
+  gap: 10px;
+}
+
+.feedback-form .selection div select {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+}
+
+.feedback-form textarea {
+  width: 100%;
+  height: 90px;
+}
+
+/* Feedback From css end */
+
+/* Footer Css Start */
+.footer-section {
+  background-color: whitesmoke;
+  padding: 2px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px 50px;
+  gap: 150px;
+  align-items: center;
+  background-color: white;
+  margin: 10px 20px;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .div1 aside {
+  display: flex;
+  gap: 5px;
+
+}
+
+footer .div1 img {
+  width: 80px;
+  height: 80px;
+  border: 15px solid blueviolet;
+  border-radius: 50px;
+}
+
+/* Footer Css End */
+
+/* Registartion css start */
+.registartion-section-back {
+  width: 99vw;
+  height: 100vh;
+  border: 1px solid black;
+  background-image: url("../images/homeBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.registartion-section {
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.549);
+}
+
+.registartion-section img {
+  width: 280px;
+  height: 370px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.registartion-section .registartion-from {
+  width: 280px;
+  height: 370px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: rgb(0, 39, 56);
+  color: white;
+  padding: 10px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.registartion-section .registartion-from input {
+  width: 100%;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+.registartion-section .registartion-from button {
+  background-color: rgb(0, 77, 77);
+  color: white;
+  font-weight: bold;
+}
+
+.registartion-section .registartion-from .change-btn {
+  background: none;
+  border: none;
+  width: 50px !important;
+  display: inline;
+}
+
+.registartion-section .log-in-form {
+  width: 280px;
+  height: 370px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: rgb(0, 39, 56);
+  color: white;
+  padding: 10px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.registartion-section .log-in-form input {
+  width: 100%;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+.registartion-section .log-in-form button {
+  background-color: rgb(0, 77, 77);
+  color: white;
+  font-weight: bold;
+}
+
+.registartion-section .log-in-form .change-btn {
+  background: none;
+  border: none;
+  width: 50px !important;
+  display: inline;
+}
+
+/* Admin Log-in Section */
+.admin-login-back {
+  width: 99vw;
+  height: 94vh;
+  border: 1px solid black;
+  background-image: url("../images/homeBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.admin-login-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+  background-color: rgba(0, 0, 0, 0.549);
+}
+
+.admin-login-section img {
+  width: 280px;
+  height: 370px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.admin-login-section form {
+  width: 280px;
+  height: 370px;
+  box-sizing: border-box;
+  background-color: rgb(35, 75, 120);
+  color: white;
+  padding: 10px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.admin-login-section form input,
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.admin-login-section form h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.admin-login-section form button {
+  background-color: rgb(0, 0, 89);
+  color: white;
+  font-weight: bold;
+}
+
+
+/* Library Section */
+.library-section-back {
+  width: 99vw;
+  height: 100vh;
+  border: 1px solid black;
+  background-image: url("../images/Library.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.library-section {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.632);
+  height: 100vh;
+  color: white;
+}
+
+.library-section-left ol {
+  display: grid;
+}
+
+.library-section-left a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.library-section-left h1 {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px red;
+}
+
+.library-section-left {
+  min-width: 30vw;
+  padding: 20px;
+  line-height: 25px;
+  background-color: rgb(96, 96, 96);
+}
+
+li {
+  list-style-position: inside;
+}
+
+.library-heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+
+.library-section-right {
+  margin: 10px 30px;
+}
+
+.books-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+.books-section div {
+  border: 1px solid rgb(255, 255, 255);
+  width: 60vw;
+  height: 220px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.books-section div ol {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+
+}
+
+.books-section div ol li {
+  border: 2px solid rgb(203, 106, 53);
+  border-radius: 17px 0px 0px 17px;
+  padding: 7px;
+  min-width: 150px;
+  border-right: none !important;
+  color: black;
+  cursor: grab;
+
+  background-image: url("../images/Book.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inline-layout {
+  display: inline;
+}
+
+/* ClassRoom Css */
+.classroom-section-back {
+  width: 99vw;
+  height: 94vh;
+  border: 1px solid black;
+  background-image: url("../images/Screenshot\ 2025-07-21\ 004555.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.classroom-section {
+  width: 99vw;
+  height: 94vh;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.44);
+}
+
+.classroom-cointaner {
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.classroom-heading {
+  font-size: 30px;
+  font-style: italic;
+  padding: 10px;
+  text-shadow: 1px 1px 1px darkcyan;
+}
+
+.classroom-cointaner .class-card {
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  background-image: url("../images/croom-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.classroom-cointaner .class-card samp {
+  font-size: 20px;
+}
+
+.classroom-cointaner .class-card small {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.classroom-cointaner .class-card button {
+  height: 25px;
+  margin-top: 10px;
+}
+
+/* Notification Section */
+
+.notification-section-back {
+  width: 99vw;
+  height: 94vh;
+  border: 1px solid black;
+  background-image: url("../images/Class-back-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.notification-section {
+  width: 99vw;
+  height: 94vh;
+  border: 1px solid black;
+  background-color: rgba(255, 228, 178, 0.852);
+}
+
+.notification-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.notification-heading h1 {
+  color: rgb(45, 45, 98);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.notification-heading button {
+  width: 100px;
+  height: 28px;
+  background-color: rgb(45, 45, 98);
+  color: white;
+  font-weight: bold;
+}
+
+.notifications {
+  padding: 20px 100px;
+}
+
+.notifications button {
+  width: 80px;
+  border: none;
+  background-color: orangered;
+  color: white;
+}
+
+.notifications .notify {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  background-color: rgb(255, 231, 201);
+  padding: 5px;
+  border-radius: 10px 10px 10px 0px;
+  color: rgb(62, 62, 122);
+}
+
+/* Explore Computer  */
+.Explore-computer-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: white;
+}
+
+.Explore-computer-heading img {
+  width: 120px;
+}
+
+.Explore-computer-heading h1 {
+  font-size: 30px;
+  color: rgb(36, 36, 82);
+}
+
+.Explore-computer-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  height: 88vh;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.Explore-computer-body div {
+  border: 1px solid black;
+  background-color: white;
+  margin: 20px;
+  width: 340px;
+  height: 180px;
+  padding: 20px;
+}
+
+.Explore-computer-section-back-it {
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/3rdYear.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Explore-computer-section-back-cse {
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/1stYear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Explore-computer-section-back-entc {
+  z-index: -1;
+  width: 100%;
+ height: 100vh;
+  background-image: url("../images/4thYear.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* admin dash board */
+.admin-dashboard-back h1 {
+  font-size: 30px;
+  color: rgb(58, 58, 152);
+}
+
+.admin-dashboard {
+  display: flex;
+}
+
+.admin-dashboard-left {
+  border: 1px solid black;
+  width: 30vw;
+  height: 90vh;
+  padding: 2%;
+  line-height: 25px;
+}
+
+.admin-dashboard-right {
+  border: 1px solid black;
+  width: 69vw;
+  height: 90vh;
+  padding: 2%;
+  overflow-y: auto;
+}
+
+.admin-dashboard-right table {
+  width: 100%;
+}
+
+.admin-dashboard-right table th,
+td {
+  padding: 5px;
+}
+
+.admin-dashboard-left a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.admin-dashboard-left li{
+  margin-top: 30px;
+}
+
+/* Study Material */
+.study-material-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.study-material-form form {
+  border: 1px solid black;
+  width: 400px;
+  padding: 30px;
+}
+
+.study-material-form form input {
+  width: 100%;
+  height: 30px;
+}
+
+.study-material-form form textarea {
+  width: 100%;
+  height: 70px;
+}
+
+.study-material-form form select {
+  width: 100%;
+  height: 30px;
+}
+
+
+.pdf-downlode-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf-downlode-window center {
+  display: inline-block;
+}
+
+/* class-room-form-section */
+.class-room-form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 94vh;
+}
+
+.class-room-form-section form {
+  border: 1px solid black;
+  width: 350px;
+  padding: 20px;
+}
+
+.class-room-form-section form input,
+textarea {
+  width: 100%;
+  height: 30px;
+}
+
+.class-room-form-section form .identity {
+  display: none;
+}
+
+.myclass-data {
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  overflow: auto;
+}
+
+.myclass-data .class-info {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px 30px;
+}
+
+.myclass-pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+  border: 1px solid black;
+}
+
+.myclass-pass .password {
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.myclass-pass .password input {
+  width: 100%;
+  height: 35px;
+}
+
+
+
+/* Responsive Design */
+/* 1280 */
+@media (max-width:1280px) {
+  footer {
+    gap: 120px;
+  }
+}
+
+@media (max-width:1025px) {
+
+  /* Homepage */
+
+  .greet div h1 {
+    font-size: 45px;
+  }
+
+  .greet div samp {
+    font-size: 15px;
+  }
+
+  .home-image img {
+    width: 400px;
+    /* border: 1px solid black; */
+  }
+
+  .branch-section div {
+    width: 300px;
+    height: 350px;
+  }
+
+  .branch-section div figure img {
+    width: 299px;
+    height: 280px;
+  }
+  .feedback-section .feedback-form{
+    border-radius: 15px;
+  }
+      .feedback-section img{
+    display: none;
+   }
+
+  footer {
+    gap: 50px;
+  }
+
+}
+
+/* Registaryin */
+.registartion-section img {
+  border-radius: 15px 15px 0px 0px;
+}
+.admin-login-section form {
+  border-radius: 0px 0px 15px 15px;
+}
+.admin-login-section img {
+  border-radius:  15px 15px 0px 0px;
+}
+
+.admin-login-section form {
+  border-radius: 0px 0px 15px 15px;
+}
+
+/* 912 */
+@media (max-width:912px) {
+
+  /* Home */
+  .home-back-section {
+    width: 99vw;
+    height: 25vh;
+  }
+
+  .home-section {
+    width: 99vw;
+    height: 25vh;
+  }
+
+  .branch-section div {
+    width: 250px;
+    height: 330px;
+  }
+
+  .branch-section div figure img {
+    width: 249px;
+    height: 250px;
+  }
+
+  .feedback-section .feedback-form {
+    width: 550px;
+    height: 350px;
+  }
+    .feedback-section img{
+    display: none;
+   }
+
+  footer {
+    gap: 40px;
+  }
+}
+
+@media (max-width:855px) {
+  .home-back-section {
+    width: 99vw;
+    height: 60vh;
+  }
+
+  .home-section {
+    width: 99vw;
+    height: 60vh;
+  }
+  .branch-section div {
+    width: 230px;
+    height: 330px;
+  }
+
+  .branch-section div figure img {
+    width: 229px;
+    height: 250px;
+  }
+
+  .feedback-section .feedback-form {
+    width: 550px;
+    height: 350px;
+  }
+   .feedback-section img{
+    display: none;
+   }
+
+  footer {
+    gap: 20px;
+  }
+}
+
+@media (max-width:821px) {
+  .greet div h1 {
+    font-size: 40px;
+  }
+
+  .greet div samp {
+    font-size: 15px;
+  }
+
+  .home-image img {
+    width: 350px;
+    /* border: 1px solid black; */
+  }
+
+  .branch-section div {
+    width: 220px;
+    height: 330px;
+  }
+
+  .branch-section div figure img {
+    width: 219px;
+    height: 250px;
+  }
+
+
+}
+
+@media (max-width:770px) {
+  .home-back-section {
+    width: 99vw;
+    height: 70vh;
+  }
+
+  .home-section {
+    width: 99vw;
+    height: 70vh;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  .greet div h1 {
+    font-size: 45px;
+  }
+
+  .greet div samp {
+    font-size: 15px;
+  }
+
+  .home-image img {
+    width: 450px;
+    /* border: 1px solid black; */
+  }
+
+  .branch-section div {
+    width: 450px;
+    height: 480px;
+    margin: 25px 0px;
+  }
+
+  .branch-section div figure img {
+    width: 449px;
+    height: 400px;
+  }
+
+  .feedback-section img {
+    display: none;
+
+  }
+
+  .feedback-section .feedback-form {
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+  }
+
+  footer {
+    gap: 22px;
+  }
+
+  footer h3 {
+    font-size: 20px;
+  }
+
+  footer li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:545px) {
+  nav {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .home-back-section {
+    width: 99vw;
+    height: 90vh;
+  }
+
+  .home-section {
+    width: 99vw;
+    height: 90vh;
+  }
+
+  .greet div h1 {
+    font-size: 35px;
+  }
+
+  .greet div samp {
+    font-size: 12px;
+  }
+
+  .home-image img {
+    width: 320px;
+    /* border: 1px solid black; */
+  }
+
+  .feedback-section .feedback-form {
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+  }
+  footer h3{
+    font-size: 13px;
+  }
+  footer li{
+    font-size: 7px;
+  }
+  footer .div1 img{
+    width: 60px;
+    height: 60px;
+  }
+  footer .div1 h2{
+    font-size: 15px;
+  }
+  footer .div1 aside{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:431px) {
+    nav {
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+    .branch-section div {
+    width: 320px;
+    height: 480px;
+    margin: 25px 0px;
+  }
+
+  .branch-section div figure img {
+    width: 319px;
+    height: 400px;
+  }
+    .feedback-section .feedback-form {
+    width: 390px;
+    height: 350px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width:415px) {
+  .navigation{
+    gap: 12px;
+  }
+}
+
+@media (max-width:391px){
+  .branch-section div {
+    width: 280px;
+    height: 330px;
+    margin: 25px 0px;
+  }
+  .greet .count .student-count {
+  width: 150px;
+  font-size: 12px;
+}
+
+.greet .count .material-count {
+  width: 150px;
+  font-size: 12px;
+}
+
+  .branch-section div figure img {
+    width: 279px;
+    height: 250px;
+  }
+      .feedback-section .feedback-form {
+    width: 330px;
+    height: 350px;
+    border-radius: 20px;
+  }
+
+}
+@media (max-width:391px){
+    .greet div h1 {
+    font-size: 30px;
+  }
+
+  .greet div samp {
+    font-size: 12px;
+  }
+
+  .home-image img {
+    width: 270px;
+    /* border: 1px solid black; */
+  }
+}
+
+@media (max-width:345px) {
+  nav{
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+      .branch-section div{
+    width: 240px;
+    height: 330px;
+  }
+    .branch-section div figure img {
+    width: 239px;
+    height: 250px;
+  }
+}
