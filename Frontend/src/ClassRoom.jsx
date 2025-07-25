@@ -20,7 +20,6 @@ const ClassRoom = () => {
         <NavbarOne/>
             <section className="classroom-section-back">
                 <div className="classroom-section">
-                    <h1 className="classroom-heading">ClassRoom</h1>
                     <div className="classroom-cointaner">
                             {classroom.length > 0 ?
                             (classroom.map((cls)=>(

@@ -26,7 +26,6 @@ const NavbarOne = () => {
           <Link to="/library">Library</Link>
           <Link to="/notifications"><i className="bi bi-bell"></i><sup>{notification.length}</sup></Link>
           <Link to="/">Log-out</Link>
-          <Link to="/admin-login">Admin</Link>
         </div>
       </nav>
     </>

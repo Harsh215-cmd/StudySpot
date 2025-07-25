@@ -419,7 +419,7 @@ button {
 /* Library Section */
 .library-section-back {
   width: 99vw;
-  height: 100vh;
+  height: 94vh;
   border: 1px solid black;
   background-image: url("../images/Library.png");
   background-repeat: no-repeat;
@@ -430,7 +430,7 @@ button {
 .library-section {
   display: flex;
   background-color: rgba(0, 0, 0, 0.632);
-  height: 100vh;
+ height: 94vh;
   color: white;
 }
 
@@ -470,6 +470,7 @@ li {
 
 .library-section-right {
   margin: 10px 30px;
+    overflow-y: auto;
 }
 
 .books-section {
